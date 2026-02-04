@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Controle_Vendas</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="br.com.projeto.view\" />
+    <Folder Include="br.com.projeto.dao\" />
+    <Folder Include="br.com.projeto.model\" />
+    <Folder Include="br.com.projeto.conexao\" />
+  </ItemGroup>
+
+</Project>
