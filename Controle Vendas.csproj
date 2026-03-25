@@ -10,10 +10,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="br.com.projeto.view\" />
-    <Folder Include="br.com.projeto.dao\" />
-    <Folder Include="br.com.projeto.model\" />
-    <Folder Include="br.com.projeto.conexao\" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
